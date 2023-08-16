@@ -9,6 +9,9 @@ import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 // Order should be: Sudanese Website with prayer, PingPong simulator, Rss News Aggregator, NaturalNumber calculator
+// Connect 4 game that is played through a user interface created in MATLAB. The interface allows the player to select a column to drop their game piece into by pressing a key on the keyboard, ranging from 1 to 7. The game continues until one player gets four of their game pieces in a row horizontally, vertically, or diagonally, or until the board is full and the game ends in a draw. The interface updates in real-time to reflect the current state of the game and displays messages to the player indicating whose turn it is, whether the move was successful, and if the game has been won or ended in a draw.
+
+
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -25,10 +28,10 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Sudanese Tournament & Prayer Scheduler"
+              description="Designed a dynamic website via AWS S3, showcasing tournament schedules, serving 1,800+ users with event and dining details. Leveraged an Athan API integration to auto-detect user locations, providing real-time prayer times and countdowns"
+              ghLink="https://github.com/Asmali1/SudanTournament2023"
+              demoLink="http://sudanese.s3-website-us-east-1.amazonaws.com/#"
             />
           </Col>
 
@@ -36,10 +39,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="PinBall Machine Machine"
+              description="Developed a pinball machine simulation with added features such as dynamic memory failures, linked list code, file I/O, command line arguments, and playable bonus mode. Utilized structs and linked lists to implement these features, while also incorporating I/O and different memories. Built and maintained the code using makefile targets, with strict adherence to function declarations and visibility rules."
+              ghLink="https://github.com/Asmali1/Projects/tree/main/PingPong%20Machine%20with%20IO%2C%20Structs%2C%20LinkedList%2C%20Static%20and%20Dynamic%20Memory"
+              demoLink="https://www.youtube.com/watch?v=RM_PRISgrNo&t=1s"
             />
           </Col>
 
@@ -47,13 +50,13 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
+              title="RSS News Aggregator"
               description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
+              ghLink="https://github.com/Asmali1/Projects/tree/main/RSSAggregator"
               demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
-
+{/* 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
@@ -86,7 +89,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>

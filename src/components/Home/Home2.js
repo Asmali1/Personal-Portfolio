@@ -37,17 +37,15 @@ function Home2() {
     <br />
     <br />Beyond the classroom, I enjoy working with 
     <i>
-      <b className="purple"> Flask </b>
+      <b className="purple"> Python, Java, C, JavaScript, React, HTML, and CSS. </b>
     </i>
-    and am keen on honing my skills with Python libraries like 
+    I'm also familiar with tools and platforms such as 
     <i>
-      <b className="purple"> Pandas, NumPy, </b>
+      <b className="purple"> AWS, Microsoft Azure, Linux, Unix, Flask, Rest API, and MongoDB. </b>
     </i>
-    and frameworks such as 
-    <i>
-      <b className="purple"> Django. </b>
-    </i>
-  </p>
+    I'm currently exploring Software Engineer and Product Manager Internship roles for 2024 and would love to connect on LinkedIn.
+</p>
+
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
