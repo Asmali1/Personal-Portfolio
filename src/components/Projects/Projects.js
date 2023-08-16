@@ -8,7 +8,7 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
-
+// Order should be: Sudanese Website with prayer, PingPong simulator, Rss News Aggregator, NaturalNumber calculator
 function Projects() {
   return (
     <Container fluid className="project-section">
