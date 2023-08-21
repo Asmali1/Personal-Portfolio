@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import rss_news_aggregator from "../../Assets/Projects/rss-news-aggregator.png";
-import connect4 from "../../Assets/Projects/connect4.png";
-import sudan from "../../Assets/Projects/sudanese-tournament-2023.png";
-import pinball from "../../Assets/Projects/pinball.png";
-import codepath from "../../Assets/Projects/codepath-finalist-personal-website.png";
-
+import leaf from "../../Assets/Projects/leaf.png";
+import emotion from "../../Assets/Projects/emotion.png";
+import editor from "../../Assets/Projects/codeEditor.png";
+import chatify from "../../Assets/Projects/chatify.png";
+import suicide from "../../Assets/Projects/suicide.png";
+import bitsOfCode from "../../Assets/Projects/blog.png";
 // Order should be: Sudanese Website with prayer, PingPong simulator, Rss News Aggregator, NaturalNumber calculator
 // Connect 4 game that is played through a user interface created in MATLAB. The interface allows the player to select a column to drop their game piece into by pressing a key on the keyboard, ranging from 1 to 7. The game continues until one player gets four of their game pieces in a row horizontally, vertically, or diagonally, or until the board is full and the game ends in a draw. The interface updates in real-time to reflect the current state of the game and displays messages to the player indicating whose turn it is, whether the move was successful, and if the game has been won or ended in a draw.
 
@@ -24,21 +24,20 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        <Col md={4} className="project-card">
-    <ProjectCard
-        imgPath={sudan}
-        isBlog={false}
-        title="Sudanese Tournament & Prayer Scheduler"
-        description="Designed a dynamic website via AWS S3, showcasing tournament schedules for 1,800+ users with event and dining details. The site offers dual-language support with translations in Arabic and English across the platform. An integrated Athan API auto-detects user locations, providing real-time prayer times, which users can navigate through with next and previous buttons. Additionally, a dynamic countdown adjusts based on the user's current time, automatically updating to reflect the closest upcoming prayer time."
-        ghLink="https://github.com/Asmali1/SudanTournament2023"
-        demoLink="http://sudanese.s3-website-us-east-1.amazonaws.com/#"
-    />
-</Col>
-
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="Sudanese Tournament & Prayer Scheduler"
+              description="Designed a dynamic website via AWS S3, showcasing tournament schedules, serving 1,800+ users with event and dining details. Leveraged an Athan API integration to auto-detect user locations, providing real-time prayer times and countdowns"
+              ghLink="https://github.com/Asmali1/SudanTournament2023"
+              demoLink="http://sudanese.s3-website-us-east-1.amazonaws.com/#"
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={pinball}
+              imgPath={bitsOfCode}
               isBlog={false}
               title="PinBall Machine Machine"
               description="Developed a pinball machine simulation with added features such as dynamic memory failures, linked list code, file I/O, command line arguments, and playable bonus mode. Utilized structs and linked lists to implement these features, while also incorporating I/O and different memories. Built and maintained the code using makefile targets, with strict adherence to function declarations and visibility rules."
@@ -49,32 +48,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={rss_news_aggregator }
+              imgPath={editor}
               isBlog={false}
               title="RSS News Aggregator"
-              description="Created an RSS News Aggregator, handling 500+ XML RSS feeds, and effectively filtering out ad links. Enhanced user navigation by generating concise HTML index pages with categorized links to thousands of news items"
+              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
               ghLink="https://github.com/Asmali1/Projects/tree/main/RSSAggregator"
               // demoLink="https://editor.soumya-jit.tech/"              
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={connect4}
-              isBlog={false}
-              title="Connect 4"
-              description="Connect 4 game that is played through a user interface created in MATLAB. The interface allows the player to select a column to drop their game piece into by pressing a key on the keyboard, ranging from 1 to 7. The game continues until one player gets four of their game pieces in a row horizontally, vertically, or diagonally, or until the board is full and the game ends in a draw. The interface updates in real-time to reflect the current state of the game and displays messages to the player indicating whose turn it is, whether the move was successful, and if the game has been won or ended in a draw."
-              ghLink="https://github.com/Asmali1/Projects/blob/main/Connect4"
-              // demoLink="https://editor.soumya-jit.tech/"              
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={codepath}
-              isBlog={false}
-              title="CodePath Finalist Website"
-              description="Developed over 14 hours and deployed using AWS, this website offers a switchable dark and light mode, optimized responsiveness for devices up to 820px wide, and a top-positioned navigation bar. Integrated features include quick social media links, a 'Contact Me' section connected to Google Excel for real-time updates, 360° image cubes, detailed profile tabs, and a project showcase with hover descriptions. The site is accentuated with a unique CSS text typing animation"
-              ghLink="https://github.com/Asmali1/Projects/blob/main/Connect4"
-              demoLink="http://asmali-codepath.s3-website-us-east-1.amazonaws.com/"              
             />
           </Col>
 {/* 
