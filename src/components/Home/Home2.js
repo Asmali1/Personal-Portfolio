@@ -4,9 +4,12 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
+  
 
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { MdOutlineMail } from 'react-icons/md';
+
 
 function Home2() {
   return (
@@ -81,6 +84,16 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
+              <li className="social-icons">
+                <a
+                  href="mailto:mohamedasmali@hotmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                    <MdOutlineMail />
+                </a>
+            </li>
 
             </ul>
           </Col>
