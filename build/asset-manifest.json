@@ -1,29 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.55aa686a.css",
-    "main.js": "/static/js/main.c50ace95.js",
-    "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
+    "main.css": "/static/css/main.093f9eee.css",
+    "main.js": "/static/js/main.455eb379.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Mohamed_Asmali_Resume.pdf": "/static/media/Mohamed_Asmali_Resume.4605f5d5529e54e2234e.pdf",
     "static/media/rss-news-aggregator.png": "/static/media/rss-news-aggregator.dadac4297cb937bf870f.png",
     "static/media/sudanese-tournament-2023.png": "/static/media/sudanese-tournament-2023.8dcee3162e55d89a457f.png",
     "static/media/codepath-finalist-personal-website.png": "/static/media/codepath-finalist-personal-website.f7efecdd74b1fe26279f.png",
     "static/media/connect4.png": "/static/media/connect4.f1a6e040d16cbed4f1e0.png",
-    "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/home-main.svg": "/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
     "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/pinball.png": "/static/media/pinball.e6c874318c7947c22233.png",
     "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/logo.png": "/static/media/logo.a32a465787e94f0fb4ea.png",
-    "static/media/avatar.svg": "/static/media/avatar.47fcb6e1b7aaf40af594a63ffde7d0a2.svg",
-    "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
+    "static/media/avatar.svg": "/static/media/avatar.8eac0337879e47ab038d313bd49a73df.svg",
+    "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/index.html",
-    "main.55aa686a.css.map": "/static/css/main.55aa686a.css.map",
-    "main.c50ace95.js.map": "/static/js/main.c50ace95.js.map",
-    "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
+    "main.093f9eee.css.map": "/static/css/main.093f9eee.css.map",
+    "main.455eb379.js.map": "/static/js/main.455eb379.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.55aa686a.css",
-    "static/js/main.c50ace95.js"
+    "static/css/main.093f9eee.css",
+    "static/js/main.455eb379.js"
   ]
 }
