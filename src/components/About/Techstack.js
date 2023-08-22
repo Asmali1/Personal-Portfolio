@@ -13,38 +13,42 @@ import {
   SiMongodb
 } from "react-icons/si";
 import { CgCPlusPlus } from "react-icons/cg";
+import ReactTooltip from "react-tooltip";
 
 function Techstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiHtml5 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiCss3 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFlask />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMongodb />
-      </Col>
-    </Row>
+    <>
+      <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+        <Col xs={4} md={2} className="tech-icons">
+          <div data-tip="Python"><DiPython /></div>
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <div data-tip="Java"><DiJava /></div>
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <div data-tip="C++"><CgCPlusPlus /></div>
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <div data-tip="JavaScript"><DiJavascript1 /></div>
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <div data-tip="React"><DiReact /></div>
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <div data-tip="HTML5"><DiHtml5 /></div>
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <div data-tip="CSS3"><DiCss3 /></div>
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <div data-tip="Flask"><SiFlask /></div>
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <div data-tip="MongoDB"><SiMongodb /></div>
+        </Col>
+      </Row>
+      <ReactTooltip place="top" type="dark" effect="float"/>
+    </>
   );
 }
 
