@@ -31,7 +31,7 @@ function Projects() {
         title="Sudanese Tournament & Prayer Scheduler"
         description="Designed a dynamic website via AWS S3, showcasing tournament schedules for 1,800+ users with event and dining details. The site offers dual-language support with translations in Arabic and English across the platform. An integrated Athan API auto-detects user locations, providing real-time prayer times, which users can navigate through with next and previous buttons. Additionally, a dynamic countdown adjusts based on the user's current time, automatically updating to reflect the closest upcoming prayer time."
         ghLink="https://github.com/Asmali1/SudanTournament2023"
-        demoLink="http://sudanese.s3-website-us-east-1.amazonaws.com/#"
+        demoLink="http://sstohio.com"
     />
 </Col>
 
@@ -72,9 +72,9 @@ function Projects() {
               imgPath={codepath}
               isBlog={false}
               title="CodePath Finalist Website"
-              description="Developed over 14 hours and deployed using AWS, this website offers a switchable dark and light mode, optimized responsiveness for devices up to 820px wide, and a top-positioned navigation bar. Integrated features include quick social media links, a 'Contact Me' section connected to Google Excel for real-time updates, 360° image cubes, detailed profile tabs, and a project showcase with hover descriptions. The site is accentuated with a unique CSS text typing animation"
-              ghLink="https://github.com/Asmali1/Projects/blob/main/Connect4"
-              demoLink="http://asmali-codepath.s3-website-us-east-1.amazonaws.com/"              
+              description="Developed and deployed using AWS, this website offers a switchable dark and light mode, optimized responsiveness for devices up to 820px wide, and a top-positioned navigation bar. Integrated features include quick social media links, a 'Contact Me' section connected to Google Excel for real-time updates, 360° image cubes, detailed profile tabs, and a project showcase with hover descriptions. The site is accentuated with a unique CSS text typing animation"
+              ghLink="https://github.com/Asmali1/CodePath-Finalist-Website"
+              demoLink="https://asmali1.github.io/CodePath-Finalist-Website/"              
             />
           </Col>
 {/* 
