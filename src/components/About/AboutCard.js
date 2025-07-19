@@ -9,11 +9,8 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Mohamed Asmali </span>
-            from <span className="purple"> Brooklyn, New York.</span>
-            <br /> I am a Junior pursuing a Bacherlors in Computer Science and Engineering
+            <br /> I am a graduate with a Bachelor of Science in Computer Science & Engineering
             at The Ohio State University
-            <br />
-            Additionally, I am currently employed as an Engineering Lab Assistant.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
