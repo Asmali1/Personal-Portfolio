@@ -35,6 +35,17 @@ function About() {
           </Col>
         </Row>
         <h1 className="project-heading">
+          <strong className="purple">Work</strong> Experience
+        </h1>
+        <p style={{ color: "white", paddingBottom: "30px" }}>
+          {/* Add your work experience details here. Example below: */}
+          <strong>Software Engineer Intern</strong> at Example Company (2023)
+          <br />
+          - Developed web applications using React and Node.js
+          <br />
+          - Collaborated with cross-functional teams to deliver projects on time
+        </p>
+        <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
         </h1>
 
